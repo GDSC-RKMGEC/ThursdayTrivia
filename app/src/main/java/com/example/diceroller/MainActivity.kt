@@ -53,11 +53,11 @@ fun DiceWithButtonAndImage(modifier: Modifier = Modifier){
         horizontalAlignment = Alignment.CenterHorizontally){
 
         Image(
-            painter = painterResource(R.drawable.composecamp_logo),
-            contentDescription = "Compose Camp Logo"
+            painter = painterResource(R.drawable.img),
+            contentDescription = "Compose Logo"
         )
 
-        Text(text="Dipayan Sarkar", color = Color(56,112,179,255), fontSize = 30.sp,fontWeight = FontWeight.Bold)
+        Text(text="Debarun Acharya", color = Color(56,112,179,255), fontSize = 30.sp,fontWeight = FontWeight.Bold)
         Spacer(modifier = Modifier.height(16.dp))
         Text(
             text = "❤️",
